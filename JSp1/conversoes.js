@@ -10,4 +10,4 @@ let numeroString = "456"
 
 console.log(numero + Number(numeroString))
 
-//conversão explícita
+//conversão explícita 
