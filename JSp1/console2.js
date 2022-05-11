@@ -1,0 +1,2 @@
+console.log("deu erro");
+console.error(new Error("O ERRO É QUE QUANDO ESSE CÓDIGO FOI ESCRITO, DEUS E EU SABIA OQ ESTAVA SENDO ESCRITO. AGORA SO ELE SABE"));
