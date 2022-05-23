@@ -1,5 +1,5 @@
 const cliente = {
-    nome: 'Andre',
+    nome: 'Gabriel',
     idade: 36,
     cpf: '12345678912',
     email: 'andre@email.com',
@@ -20,17 +20,14 @@ const cliente = {
     }
 }
 
-cliente.depositar(100)
-let relatorio = ""
-
-for (let info in cliente) {
-    if(typeof cliente[info] === "object" || typeof cliente[info] === "function") {
-        continue
+function oferecerSeguro(obj) {
+    const propsClientes = Object.keys(obj)
+    if(propsClientes.includes("dependetes")) 
+    {
+        console.log(`Oferta de Seguro de Vida disponivél para ${obj.nome}`)
     } else {
-        relatorio += `
-        ${info}: ${cliente[info]}
-        `
+        console.log(`Você escreveu errado boco`)
     }
 }
-
-console.log(relatorio)
+console.log(Object.entries(cliente))
+oferecerSeguro(cliente)
