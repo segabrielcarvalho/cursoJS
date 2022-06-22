@@ -1,0 +1,1 @@
+Essa parte do curso está voltada a programação orientata a objetos

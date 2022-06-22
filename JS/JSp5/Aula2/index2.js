@@ -1,4 +1,4 @@
-import { edFolha } from "./arrays.js"
+import { edFolha } from "../arrays.js"
 
 function mergeSort(array) {
 

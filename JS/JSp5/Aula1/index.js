@@ -1,4 +1,4 @@
-import { edGalho, edFolha }  from './arrays.js'
+import { edGalho, edFolha }  from '../Aula3/arrays.js'
 
 
 function juntaListas(lista1, lista2) {
